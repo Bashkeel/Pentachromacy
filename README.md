@@ -18,11 +18,12 @@ The summarizer also reports the breakdown of colors within each cluster, based o
     * Create the cluster masks 
     * Plot 5 replicates of the original image with the cluster masks
 * Present the data in a tidy HTML table
-    > HTML table does not load properly on Jupyter Notebook viewed through Github (To be fixed)
+    
 
 
 ### Issues:
-* Images with less than 5 distinct colors will cause errors in K-Means Clustering
+> * HTML table does not load properly on Jupyter Notebook viewed through Github (To be fixed)
+> * Images with less than 5 distinct colors will cause errors in K-Means Clustering
 
 
 ### The image used in this example:
