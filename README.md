@@ -45,7 +45,7 @@ Each pixel in the image is assigned to one of five groups based on the RGB value
 
 The border around each cluster partition represents the average color of the partition. This is calculated as the average RGB values of the partition.
 
-![](Cluster%20Partitions.png)
+![](Figures/Cluster%20Partitions.png)
 
 ### Cluster Breakdown
 Next, we investigate the specifics of the cluster partitions. The cluster bar represents the proportion of pixels from the image that are in each cluster (**Pixels**)
@@ -54,5 +54,5 @@ In the table below, we report the average color of each cluster via its **Common
 
 We also list the unique color name of each individual pixel in the partitions (**Tags**)
 
-![](Cluster%20Bar.png)
-![](Cluster%20Table.png)
+![](Figures/Cluster%20Bar.png)
+![](Figures/Cluster%20Table.png)
