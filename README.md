@@ -18,23 +18,11 @@ The summarizer also reports the breakdown of colors within each cluster, based o
     * Create the cluster masks 
     * Plot 5 replicates of the original image with the cluster masks
 * Present the data in a tidy HTML table
-    * Does not work properly on Jupyter Notebook viewed through Github (To be fixed)
+    > HTML table does not load properly on Jupyter Notebook viewed through Github (To be fixed)
 
 
 ### Issues:
 * Images with less than 5 distinct colors will cause errors in K-Means Clustering
-
-
-
-### Required Libraries
-* Python Imaging Library
-* Numpy
-* Pandas
-* SciKit-Learn
-* Colormaps
-* Webcolors
-* Matplotlib
-* IPython Display
 
 
 ### The image used in this example:
@@ -56,3 +44,15 @@ We also list the unique color name of each individual pixel in the partitions (*
 
 ![](Figures/Cluster%20Bar.png)
 ![](Figures/Cluster%20Table.png)
+
+<br>
+
+### Required Libraries
+* `Pillow`
+* `numpy`
+* `pandas`
+* `scikit-learn`
+* `colormaps`
+* `webcolors`
+* `Matplotlib`
+* `IPython display`
