@@ -7,6 +7,7 @@ The average color of each cluster will be reported via its **Common Color Name**
 
 The summarizer also reports the breakdown of colors within each cluster, based on the nearest **Common Color Name** from a pixel's RGB value
 
+> ## [Skip to the Notebook](https://nbviewer.jupyter.org/github/Bashkeel/Pentachromacy/blob/master/A%20Pigment%20Of%20Your%20Imagination.ipynb)
 
 ### Steps Taken:
 * Defining all functions used prior to beginning
